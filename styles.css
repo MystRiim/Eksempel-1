@@ -1,0 +1,138 @@
+body {
+	background: radial-gradient(
+		circle,
+		rgba(255, 202, 225, 1) 0%,
+		rgba(179, 230, 255, 1) 100%
+	);
+}
+
+.glassbutton button {
+	display: inline-block;
+	padding: 12px 22px;
+	border: 0;
+	text-decoration: none;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(20px);
+	color: rgba(93, 93, 93, 0.8);
+	font-size: 10px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.glassbutton button:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.glassbutton button {
+	margin: 5.5px;
+	margin-top: 40px;
+	max-width: 200px;
+}
+
+h1 {
+	color: rgba(35, 35, 35, 0.8);
+	font-family: Montserrat;
+	font-size: 35px;
+	font-weight: 300;
+	letter-spacing: 26px;
+	text-align: center;
+}
+
+p,
+ul,
+tt {
+	font-weight: 250;
+}
+
+tt {
+	font-weight: 250;
+	font-style: italic;
+	letter-spacing: 4px;
+	font-size: 12.5px;
+}
+
+ul {
+	line-height: 25px;
+}
+
+a {
+	color: rgba(20, 20, 20, 0.8);
+	text-transform: uppercase;
+	font-size: 12.5px;
+}
+
+.card {
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(50px);
+	margin: 20px;
+}
+
+.innerCard {
+	padding: 20px;
+	font-family: Montserrat;
+	color: rgba(35, 35, 35, 0.8);
+}
+
+.header {
+	color: rgba(93, 93, 93, 0.8);
+	font-weight: 350;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 17px;
+	padding: 1% 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	user-select: none;
+}
+
+p {
+	padding-left: 10px;
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.vertical {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 520px);
+	width: auto;
+}
+
+.bodyPart {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.bodies {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
